@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: rgb(245,245,255);
+}
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    width: 500px;
+
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    background-color: rgb(250,250,255);
+    border: 1px solid rgb(220,220,220);
+    border-radius: 8px;
+}
+
+textarea{
+    max-height: 500px;
+    resize: vertical;
+}
